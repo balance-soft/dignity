@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Прайс копірайтера</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Style for FAQ -->
+    <style>
+      /* Змінюємо колір іконок у кнопках accordion на зелений */
+      .accordion-button .bi {
+        color: #28a745; /* Bootstrap-овий зелений */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Section Hero -->
+    <section class="hero position-relative" id="hero">
+      <div
+        class="hero-overlay position-absolute top-0 start-0 w-100 h-100"
+      ></div>
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute w-100 z-3"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-bold text-white" href="#hero"
+            >Галина Онищук</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#services">Послуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">Про мене</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#portfolio">Портфоліо</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#blog">Блог</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#faq">Питання</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#partners">Партнери</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Контакти</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container h-100">
+        <div class="row h-100">
+          <div
+            class="col d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <h1 class="text-white text-center mb-4" data-aos="fade-up">
+              Тексти, що працюють на ваш бізнес
+            </h1>
+            <p
+              class="text-white text-center mb-5"
+              data-aos="fade-up"
+              data-aos-duration="300"
+            >
+              СЛОВЕСНЕ МИСТЕЦТВО ДЛЯ ТОЧНИХ РЕЗУЛЬТАТІВ
+            </p>
+            <a
+              href="index.html#services"
+              class="btn btn-outline-light px-4 py-2"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              >Дивитись послуги</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Services  -->
+    <section class="services py-5 bg-light" id="services">
+      <div class="container">
+        <h2
+          class="text-center text-success fw-semibold mb-5"
+          data-aos="fade-up"
+        >
+          Послуги
+        </h2>
+        <div class="row g-4">
+          <!-- Копірайтинг -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-success">
+                <div class="text-center mb-2 fs-1">
+                  <i class="bi bi-pen me-2"></i>
+                </div>
+                <h5 class="fw-bold text-center card-title">Копірайтинг</h5>
+                <p>
+                  Створюю тексти, які продають, переконують і ведуть до дії. Це
+                  можуть бути опис послуг, сторінки сайту, лендінги,
+                  email-розсилки або рекламні кампанії.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Рерайтинг -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-success">
+                <div class="text-center mb-2 fs-1">
+                  <i class="bi bi-arrow-repeat me-2"></i>
+                </div>
+                <h5 class="fw-bold text-center card-title">Рерайтинг</h5>
+                <p>
+                  Переписую готові тексти з урахуванням стилю, логіки, структури
+                  та ключових слів. Тексти залишаються змістовними, але
+                  виглядають по-новому — краще.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Неймінг -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-success">
+                <div class="text-center mb-2 fs-1">
+                  <i class="bi bi-lightbulb"></i>
+                </div>
+                <h5 class="fw-bold text-center card-title">
+                  Неймінг та слогани
+                </h5>
+                <p>
+                  Допомагаю вигадати назву для бренду, продукту або проєкту.
+                  Пропоную кілька варіантів і пояснюю, чому саме ці назви
+                  працюють. Також розробляю слогани.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-success mt-4" data-aos="fade-up" data-aos-delay="400">
+          Якщо не впевнені, яка послуга вам підходить —
+          <a
+            href="https://t.me/Galinka840"
+            class="text-decoration-underline text-success"
+            >напишіть мені</a
+          >, і я допоможу підібрати оптимальне рішення.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section About -->
+    <section class="about py-5 bg-success text-white" id="about">
+      <div class="container overflow-hidden">
+        <div class="row align-items-center justify-content-between g-5">
+          <div class="col-md-5" data-aos="fade-up" data-aos-duration="700">
+            <img
+              src="./images/dignity.jpg"
+              alt="Галина Онищук"
+              class="img-fluid rounded shadow"
+            />
+          </div>         
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="500">
+            <h2 class="mb-4">Про мене</h2>
+
+            <p>
+              Привіт! Я — Галина. Я не пишу "щось", щоб було. Я — той
+              копірайтер, який питає: «А для кого це? А що ти хочеш сказати
+              насправді?» Бо хороший текст — це як розмова. Жива, щира і влучна.
+              Працюю з блогами, бізнесами, журналами. Умію говорити просто про
+              складне — і ніжно про важливе.
+            </p>
+            <p>
+              Зараз пишу книгу та маю досвід публікацій на міжнародному рівні:
+              нещодавно опублікувала статтю у журналі OvaL для
+              блогера-відеомейкера.
+            </p>
+            <p>
+              Напиши — і я візьмуся за слова, поки ти займаєшся своїм улюбленим.
+            </p>
+            <a
+              href="https://t.me/Galinka840"
+              class="btn btn-outline-light mt-3 px-4 py-2"
+              >Зв'язатись зі мною</a
+            >
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+'    <!-- Section Portfolio -->
+    <section class="portfolio py-5" id="portfolio">
+      <div class="container">
+        <div class="row g-3">
+          <h2 class="text-center mb-4 fw-semibold text-success" data-aos="fade-up" data-aos-duration="400">Портфоліо</h2>
+
+            <!-- OVAL magazine -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-duration="200">
+              <div class="card card-hover shadow bg-light h-100">
+                <div class="card-body d-flex flex-column text-success">
+                  <img src="./images/oval.jpg" alt="Freestyle Hub" class="img-fluid rounded mb-4 border">
+                  <h5 class="card-title fw-semibold">OVAL magazine: інтерв’ю</h5>
+                  <p class="card-text">Підготовка глибокого інтерв’ю з Кристиною Ковальчу експерткою з самореалізації та особистого бренду для міжнародного глянцю. Задача: передати стиль, харизму та цінності героїні. Робота включала аналітику, структуризацію і редакторський супровід англомовного тексту.</p>
+                    <a href="https://www.instagram.com/p/DLUwTlMNxyz/?img_index=1" target="_blank" class="btn btn-outline-success mt-auto align-self-start px-3 py-2">Переглянути</a>
+                </div>
+              </div>
+            </div>
+            <!-- Коуч Анна -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-duration="400">
+              <div class="card card-hover shadow bg-light h-100">
+                <div class="card-body d-flex flex-column text-success">
+                  <img src="./images/anna.jpg" alt="Коуч Анна" class="img-fluid rounded mb-4 border">
+                  <h5 class="card-title fw-semibold">Коуч Анна</h5>
+                  <p class="card-text">Написала тексти для сайту коуча з розвитку особистості. Кожна секція — як м’яка розмова з читачем: інформативно, щиро, з легким мотивуючим тоном. Працювала над балансом між професійністю та теплом.</p>
+                    <a href="https://anna.freestyle.org.ua" target="_blank" class="btn btn-outline-success mt-auto align-self-start px-3 py-2">Переглянути</a>
+                </div>
+              </div>
+            </div>
+            <!-- Нутриціолог Наталія -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-duration="600">
+              <div class="card card-hover shadow bg-light h-100">
+                <div class="card-body d-flex flex-column text-success">
+                  <img src="./images/natali.jpg" alt="Нутриціолог Наталія" class="img-fluid rounded mb-4 border">
+                  <h5 class="card-title fw-semibold">Нутриціолог Наталія</h5>
+                  <p class="card-text">Створила тексти для сайту нутриціолога, які підкреслюють експертність і людяність бренду. Фокус — на простоті, довірі й заклику до дії. Адаптувала тон до цільової аудиторії — жінок 35+.</p>
+                    <a href="https://diet.freestyle.org.ua" target="_blank" class="btn btn-outline-success mt-auto align-self-start px-3 py-2">Переглянути</a>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </section>'
+
+    <!-- Section Blog -->
+    <section class="blog py-5 bg-light" id="blog">
+      <div class="container">
+        <h2
+          class="text-center mb-5 text-success fw-semibold"
+          data-aos="fade-up"
+        >
+          Блог
+        </h2>
+        <div class="row g-4">
+          <!-- Стаття 1 -->
+          <div
+            class="col-md-4"
+            id="article1"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="card h-100 shadow">
+              <img
+                src="./images/good_text.jpg"
+                class="card-img-top"
+                alt="Назва статті"
+              />
+              <div class="card-body text-success">
+                <h5 class="card-title fw-semibold">Що таке хороший текст?</h5>
+                <p class="card-text">
+                  Кілька простих порад, як писати переконливо і з душею.
+                  Підходить для новачків та бізнесів.
+                </p>
+                <a href="./blog1.html" class="btn btn-outline-success"
+                  >Читати далі</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Стаття 2 -->
+          <div
+            class="col-md-4"
+            id="article2"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="card h-100 shadow">
+              <img
+                src="./images/seo.jpg"
+                class="card-img-top"
+                alt="Назва статті"
+              />
+              <div class="card-body text-success">
+                <h5 class="card-title fw-semibold">SEO у 2025 році</h5>
+                <p class="card-text">
+                  Оновлені принципи та алгоритми Google, які впливають на
+                  копірайтерів і бізнес-сайти.
+                </p>
+                <a href="./blog2.html" class="btn btn-outline-success"
+                  >Читати далі</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Стаття 3 -->
+          <div
+            class="col-md-4"
+            id="article3"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="card h-100 shadow">
+              <img
+                src="./images/naming.jpg"
+                class="card-img-top"
+                alt="Назва статті"
+              />
+              <div class="card-body text-success">
+                <h5 class="card-title fw-semibold">
+                  Неймінг: як вигадати назву
+                </h5>
+                <p class="card-text">
+                  Дізнайтесь, як створити унікальну назву для бренду або
+                  проєкту, яка залишиться в памʼяті.
+                </p>
+                <a href="./blog3.html" class="btn btn-outline-success"
+                  >Читати далі</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Пагінація -->
+        <!-- <nav class="mt-5 d-flex justify-content-center" aria-label="Blog navigation">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link text-success">Назад</a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link bg-success border-success">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-success" href="#">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-success" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-success" href="#">Вперед</a>
+            </li>
+          </ul>
+        </nav> -->
+      </div>
+    </section>
+
+    <!-- Section Pricing -->
+    <section class="pricing py-5" id="pricing">
+      <div class="container">
+        <div class="row g-4">
+          <h2
+            class="text-center text-success fw-semibold"
+            data-aos="fade-up"
+            data-aos-duration="400"
+          >
+            Тарифи на послуги копірайтера
+          </h2>
+          <!-- Копірайтинг -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="300">
+            <div class="card shadow card-hover h-100 bg-light">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-center text-success fw-semibold">
+                  Копірайтинг
+                </h5>
+                <ul class="card-text text-success">
+                  <li>Інформаційні та SEO‑тексти</li>
+                  <li>Продаючі/рекламні тексти, лендінги</li>
+                  <li>Тексти для соцмереж</li>
+                </ul>
+                <div class="text-center mt-auto">
+                  <h4 class="fw-bold text-success">~150 ₴ / 1000 збп</h4>
+                  <a
+                    href="https://t.me/Galinka840"
+                    class="btn btn-success px-3 py-2 mt-3"
+                    >Замовити</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Рерайтинг -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="500">
+            <div class="card card-hover shadow h-100 bg-light">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-center text-success fw-semibold">
+                  Рерайтинг
+                </h5>
+                <ul class="card-text text-success">
+                  <li>Унікалізація готового контенту</li>
+                  <li>Редагування стилю та структури</li>
+                  <li>SEO‑рерайтинг (ключі за потреби)</li>
+                </ul>
+                <div class="text-center mt-auto">
+                  <h4 class="fw-bold text-success">~80 ₴ / 1000 збп</h4>
+                  <a
+                    href="https://t.me/Galinka840"
+                    class="btn btn-success px-3 py-2 mt-3"
+                    >Замовити</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Неймінг + слогани -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="700">
+            <div class="card card-hover shadow h-100 bg-light">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-center text-success fw-semibold">
+                  Неймінг + Слогани
+                </h5>
+                <ul class="card-text text-success">
+                  <li>Розробка брендових назв</li>
+                  <li>Слогани, taglines</li>
+                  <li>Креативні концепти назви‑слогану</li>
+                </ul>
+                <div class="text-center mt-auto">
+                  <h4 class="fw-bold text-success">~1500 ₴ / проект</h4>
+                  <a
+                    href="https://t.me/Galinka840"
+                    class="btn btn-success px-3 py-2 mt-3"
+                    >Замовити</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Підпис -->
+        <div class="row mt-4">
+          <div
+            class="col text-center"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <p class="text-success fst-italic">
+              Ці ціни — орієнтир. Для кожного проєкту варто уточнювати:
+              тематика, складність, терміни виконання, права на використання.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section class="faq py-5 bg-light" id="faq">
+      <div class="container">
+        <h2
+          class="text-center mb-5 fw-semibold text-success"
+          data-aos="fade-up"
+        >
+          Часті запитання
+        </h2>
+        <div class="accordion" id="faqAccordion">
+          <!-- 1 -->
+          <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button fw-semibold text-success"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <i class="bi bi-cash-stack me-2"></i>
+                Що таке копірайтинг і чим він відрізняється від
+                контент-райтингу?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body text-success">
+                Копірайтинг—це створення текстів, що мотивують читача до дії
+                (наприклад, купівлі чи підписки). Контент-райтинг – це
+                інформаційні тексти для блогу, які навчають або інформують.
+                Обидва напрямки важливі, але мають різні цілі та техніки.
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed fw-semibold text-success"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <i class="bi bi-person-check me-2"></i>
+                Чому важливий SEO-копірайтинг?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body text-success">
+                SEO-тексти з ключовими словами допомагають сайту краще
+                ранжуватися в пошукових системах і залучати цільовий трафік.
+                Гарно оптимізована стаття — це інформація для користувача та
+                сигнал пошуковикам.
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed fw-semibold text-success"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <i class="bi bi-cloud-upload me-2"></i>
+                Що включає рерайтинг і для чого він потрібен?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body text-success">
+                Рерайтинг — це переписування готового матеріалу з покращенням
+                стилю, структури, унікалізації й додаванням ключів (при
+                потребі). Це дозволяє оновити контент, зберігши суть, та аби він
+                виглядав «свіжим» і релевантним.
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed fw-semibold text-success"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                <i class="bi bi-laptop me-2"></i>
+                Скільки часу займає написання одного тексту?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body text-success">
+                Зазвичай 1000 збп SEO-тексту пишеться за 1–2 дні (з урахуванням
+                дослідження теми). Рекламні матеріали або лендінги — можуть
+                потребувати 2–4 дні, залежно від складності та узгоджень.
+              </div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed fw-semibold text-success"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                <i class="bi bi-gear me-2"></i>
+                Як відбувається оплата й передача прав?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body text-success">
+                Зазвичай застосовується: ціна за 1000 збп або пакетна ставка за
+                повний формат; після затвердження контенту та оплати ви
+                отримуєте абсолютні права на текст (публікація, редагування).
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Partners -->
+    <section class="partners py-5" id="partners">
+      <div class="container">
+        <h2
+          class="text-center mb-4 fw-semibold text-success"
+          data-aos="fade-up"
+        >
+          Мої партнери
+        </h2>
+        <p
+          class="text-center mb-5 text-success"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          Ми об’єднуємо фахівців із дизайну, копірайтингу, реклами та розробки,
+          щоб реалізовувати ефективні рішення для малого бізнесу та соціальних
+          проєктів.
+        </p>
+        <div class="row g-3 justify-content-center">
+          <!-- Dignity -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="card card-hover shadow h-100 pb-4 bg-light">
+              <img
+                src="./images/liberty.jpg"
+                class="card-img-top image-fluid"
+                alt="Олена Смешко"
+              />
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="fw-semibold text-success">Олена Смешко</h5>
+                <p class="text-success"><em>Таргетолог</em></p>
+                <p class="card-text text-success">
+                  Спеціалізується на запуску реклами в соцмережах. Результати —
+                  вже з першого тижня.
+                </p>
+                <a
+                  href="https://liberty.freestyle.org.ua"
+                  class="btn btn-outline-success px-3 py-2 mt-auto align-self-center"
+                  target="_blank"
+                  >Перейти</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Clarity -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="card card-hover shadow h-100 pb-4 bg-light">
+              <img
+                src="./images/clarity.jpg"
+                class="card-img-top image-fluid"
+                alt="Марія Гірняк"
+              />
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="fw-semibold text-success">Марія Гірняк</h5>
+                <p class="text-success"><em>Контент-мейкер AI</em></p>
+                <p class="card-text text-success">
+                  Генерує тексти, зображення та відео за допомогою ШІ — швидко і
+                  креативно.
+                </p>
+                <a
+                  href="https://clarity.freestyle.org.ua"
+                  class="btn btn-outline-success px-3 py-2 mt-auto align-self-center"
+                  target="_blank"
+                  >Перейти</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Balance -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="card card-hover shadow h-100 pb-4 bg-light">
+              <img
+                src="./images/balance.jpg"
+                class="card-img-top image-fluid"
+                alt="Микола Касянчук"
+              />
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="fw-semibold text-success">Микола Касянчук</h5>
+                <p class="text-success"><em>Веб-розробка</em></p>
+                <p class="card-text text-success">
+                  Адаптивні сайти: візитки, лендинги, портфоліо. Bootstrap і
+                  WordPress.
+                </p>
+                <a
+                  href="https://crystalhorizon.github.io/balance/"
+                  class="btn btn-outline-success px-3 py-2 mt-auto align-self-center"
+                  target="_blank"
+                  >Перейти</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contacts -->
+    <section class="contact py-5 bg-light" id="contact">
+      <div class="container">
+        <h2
+          class="text-center mb-4 text-success fw-semibold"
+          data-aos="fade-up"
+          data-aos-duration="700"
+        >
+          Зв'яжіться зі мною
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <p
+              class="mb-5 text-success"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
+              Я готова відповісти на всі ваші запитання та допомогти з
+              створенням продаючих текстів для вашої справи.
+            </p>
+            <a
+              href="https://t.me/Galinka840"
+              class="btn btn-outline-success px-3 py-2"
+              data-aos="fade-up"
+              data-aos-duration="900"
+              >Написати в Telegram</a
+            >
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+        <!-- Footer -->
+        <footer class="footer bg-dark text-white pt-4" id="footer">
+          <div class="container">
+<!-- Лінія 1: Логотип + соцмережі -->
+<div
+  class="d-flex flex-column flex-md-row justify-content-between align-items-center pb-3 border-bottom border-white"
+>
+  <div class="fw-bold fs-4 mb-3 mb-md-0">Галина Онищук</div>
+  <ul class="list-unstyled d-flex mb-0 align-items-center justify-content-center">
+
+      <li class="mx-2">
+        <a href="https://t.me/Galinka840" class="text-white">
+          <i class="bi bi-telegram fs-5"></i>
+        </a>
+      </li>
+    <!-- <li class="me-3">
+      <a href="viber://chat?number=+380663605208" class="text-white" title="Viber">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+          class="align-middle" viewBox="0 0 32 32">
+          <path d="M16.317 0C7.464 0 .25 6.974.25 15.636c0 3.271.979 6.317 2.666 8.875L.25 32l7.678-2.463a16.15 16.15 0 0 0 8.39 2.273c8.854 0 16.066-6.975 16.066-15.636C32.384 6.974 25.171 0 16.317 0Zm8.56 22.616c-.448 1.25-2.271 2.292-3.146 2.375-.833.083-1.833.125-2.958-.188-.688-.208-1.521-.479-2.625-.937-4.625-2-7.646-6.542-7.875-6.854-.23-.313-1.896-2.5-1.896-4.771 0-2.27 1.146-3.354 1.563-3.792.396-.417.875-.521 1.167-.521h.417c.375 0 .563.021.812.625.375.917 1.271 3.125 1.375 3.354.104.229.188.521.063.833-.125.313-.188.521-.375.75-.188.229-.396.479-.563.646-.188.188-.396.396-.188.771.209.375.937 1.542 2.021 2.5 1.396 1.25 2.562 1.625 2.937 1.812.375.188.604.167.833-.083.229-.25.958-1.104 1.208-1.479.25-.375.5-.312.833-.188.333.125 2.125 1.021 2.5 1.208.375.188.625.271.708.417.084.146.084 1.25-.365 2.5ZM23.004 9.21c-.292 0-.563-.23-.646-.542a6.145 6.145 0 0 0-4.563-4.563.646.646 0 0 1-.5-.75c.062-.354.396-.584.75-.521a7.437 7.437 0 0 1 5.625 5.625.638.638 0 0 1-.584.75Zm-2.563.021c-.25 0-.5-.166-.563-.417a3.708 3.708 0 0 0-2.459-2.459.565.565 0 1 1 .291-1.083 4.995 4.995 0 0 1 3.271 3.271.57.57 0 0 1-.417.688h-.124Zm-2.334 1.02c-.23.021-.438-.125-.5-.333a1.292 1.292 0 0 0-.916-.917.565.565 0 0 1-.417-.688.571.571 0 0 1 .688-.417 2.417 2.417 0 0 1 1.563 1.563c.084.312-.104.646-.417.792Z"/>
+        </svg>
+      </a>
+    </li> -->
+    
+    
+    <li class="mx-2">
+      <a href="https://www.facebook.com/share/16tjn8C7xz/" class="text-white" target="_blank">
+        <i class="bi bi-facebook fs-5"></i>
+      </a>
+    </li>
+    <li class="mx-2">
+      <a href="https://www.instagram.com/stebnychanochka?igsh=ZDZza25jM2hoM201" class="text-white" target="_blank">
+        <i class="bi bi-instagram fs-5"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+        
+            <!-- Лінія 2: Меню -->
+            <ul class="nav justify-content-center py-3 border-bottom border-white flex-wrap">
+              <li class="nav-item">
+                <a href="#hero" class="nav-link px-3 text-white">Головна</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link px-3 text-white">Послуги</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link px-3 text-white">Про мене</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link px-3 text-white">Портфоліо</a>
+              </li>
+              <li class="nav-item">
+                <a href="#blog" class="nav-link px-3 text-white">Блог</a>
+              </li>
+              <li class="nav-item">
+                <a href="#pricing" class="nav-link px-3 text-white">Ціни</a>
+              </li>
+              <li class="nav-item">
+                <a href="#faq" class="nav-link px-3 text-white">Запитання</a>
+              </li>
+              <li class="nav-item">
+                <a href="#partners" class="nav-link px-3 text-white">Партнери</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link px-3 text-white">Контакти</a>
+              </li>
+            </ul>
+            
+        
+            <!-- Лінія 3: Авторське право -->
+            <div class="text-center py-3 small text-white">
+              &copy; 2025 Копірайтер Галина Онищук — Всі права захищені
+            </div>
+          </div>
+        </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
